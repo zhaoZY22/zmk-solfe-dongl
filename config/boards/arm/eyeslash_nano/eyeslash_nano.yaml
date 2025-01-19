@@ -1,5 +1,5 @@
-identifier: eyelash_nano
-name: Eyelash Nice Nano
+identifier: eyeslash_nano
+name: Eyeslash Nice Nano
 url: https://github.com/a741725193/zmk-sofle
 type: mcu
 arch: arm

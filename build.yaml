@@ -1,10 +1,10 @@
 ---
 include:
   - board: eyeslash_nano
-    shield: eyelash_sofle_central_dongle nice_view
+    shield: eyeslash_sofle_central_dongle nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
-    artifact-name: eyelash_sofle_central_dongle
+    artifact-name: eyeslash_sofle_central_dongle
   - board: eyeslash_nano
     shield: eyeslash_sofle_peripheral_left nice_view_custom
   - board: eyeslash_nano

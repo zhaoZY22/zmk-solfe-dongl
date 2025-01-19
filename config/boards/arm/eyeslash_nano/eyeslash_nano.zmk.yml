@@ -1,6 +1,6 @@
 file_format: "1"
-id: eyelash_nano
-name: Eyelash Nano
+id: eyeslash_nano
+name: Eyeslash Nano
 url: https://github.com/a741725193/zmk-sofle
 type: board
 arch: arm
