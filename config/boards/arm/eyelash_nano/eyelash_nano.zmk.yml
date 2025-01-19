@@ -1,0 +1,12 @@
+file_format: "1"
+id: eyelash_nano
+name: Eyelash Nano
+url: https://github.com/a741725193/zmk-sofle
+type: board
+arch: arm
+features:
+  - keys
+  - display
+outputs:
+  - usb
+  - ble
