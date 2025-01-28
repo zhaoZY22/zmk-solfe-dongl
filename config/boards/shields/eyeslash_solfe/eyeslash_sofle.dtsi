@@ -14,7 +14,6 @@
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,physical-layout = &eyeslash_sofle_layout;
-        zmk,backlight = &backlight;
 
     };
 
@@ -60,13 +59,6 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)  RC(4,7) RC(4,8) RC(4,9) RC(4,10) RC(4,11) RC(4,12)
         >;
     };
-    backlight: pwmleds {
-        compatible = "pwm-leds";
-        pwm_led_0 {
-            pwms = <&pwm0 0 PWM_MSEC(1) PWM_POLARITY_NORMAL>;
-        };
-    };
-
 };
 
 
@@ -75,9 +67,3 @@ zephyr_udc0: &usbd {
     status = "okay";
 };
 
-&pwm0 {
-    status = "okay";
-    pinctrl-0 = <&pwm0_default>;
-    pinctrl-1 = <&pwm0_sleep>;
-    pinctrl-names = "default", "sleep";
-};
