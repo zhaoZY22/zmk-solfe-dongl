@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: tokyo2006
+      url-base: https://github.com/tokyo2006
   projects:
     - name: eyeslash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -15,5 +17,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: prospector-zmk-module                 # <--- and these
+      remote: tokyo2006                          # <---
+      revision: support_nicenano  
   self:
     path: config
