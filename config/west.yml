@@ -7,9 +7,6 @@ manifest:
     - name: tokyo2006
       url-base: https://github.com/tokyo2006
   projects:
-    - name: eyeslash_sofle
-      url: https://github.com/a741725193/zmk-sofle
-      revision: refactor
     - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
